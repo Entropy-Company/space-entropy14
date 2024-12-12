@@ -25,6 +25,7 @@
     - WhitelistChameleonIdCard
   - type: StealTarget
     stealGroup: IDCard
+  - type: NanoChatCard # Corvax-Next-PDAChat
 
 #IDs with layers
 
@@ -883,15 +884,5 @@
     - NuclearOperative
     - SyndicateAgent
     - Wizard
-    - Xenoborg
-  - type: Tag #  Ignore Chameleon tags
-    tags:
-    - DoorBumpOpener
-  - type: AgentIDCard
-  - type: ActivatableUI
-    key: enum.AgentIDCardUiKey.Key
-    inHandsOnly: true
-  - type: UserInterface
-    interfaces:
-      enum.AgentIDCardUiKey.Key:
-        type: AgentIDCardBoundUserInterface
+  - type: NanoChatCard # Corvax-Next-PDAChat
+    notificationsMuted: true
