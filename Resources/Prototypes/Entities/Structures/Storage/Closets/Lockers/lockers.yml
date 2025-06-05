@@ -159,14 +159,13 @@
 - type: entity
   parent: LockerBase
   id: LockerEvacRepair
-  name: emergency shuttle emergency locker
-  description: It's emergencies all the way down.
+  name: evac repair locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
     stateBaseClosed: eng
     stateDoorOpen: eng_open
-    stateDoorClosed: eng_elec_door
+    stateDoorClosed: eng_evac_door
   - type: AccessReader
     access: [ [ "Engineering" ] ]
 
