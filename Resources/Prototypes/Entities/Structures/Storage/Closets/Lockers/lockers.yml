@@ -166,7 +166,7 @@
   - type: EntityStorageVisuals
     stateBaseClosed: eng
     stateDoorOpen: eng_open
-    stateDoorClosed: eng_evac_door
+    stateDoorClosed: eng_elec_door
   - type: AccessReader
     access: [ [ "Engineering" ] ]
 
