@@ -7,11 +7,6 @@ namespace Content.Shared.CartridgeLoader.Cartridges;
 public sealed class LogProbeUiState : BoundUserInterfaceState
 {
     /// <summary>
-    /// The name of the scanned entity.
-    /// </summary>
-    public string EntityName;
-
-    /// <summary>
     /// The list of probed network devices
     /// </summary>
     public List<PulledAccessLog> PulledLogs;
@@ -23,7 +18,6 @@ public sealed class LogProbeUiState : BoundUserInterfaceState
 
     public LogProbeUiState(List<PulledAccessLog> pulledLogs, NanoChatData? nanoChatData = null) // Corvax-Next-PDAChat - NanoChat support
     {
-        EntityName = entityName;
         PulledLogs = pulledLogs;
 		NanoChatData = nanoChatData; // Corvax-Next-PDAChat
     }

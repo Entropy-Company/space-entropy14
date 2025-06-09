@@ -83,7 +83,6 @@
       - NotekeeperCartridge
       - NanoTaskCartridge
       - NewsReaderCartridge
-      - SecWatchCartridge # Corvax-Next-SecWatch
       - NanoChatCartridge # Corvax-Next-PDAChat
     cartridgeSlot:
       priority: -1
@@ -171,7 +170,6 @@
       - NanoTaskCartridge
       - NewsReaderCartridge
       - MedTekCartridge
-      - SecWatchCartridge # Corvax-Next-SecWatch
       - NanoChatCartridge # Corvax-Next-PDAChat
 
 - type: entity
@@ -523,7 +521,6 @@
       - NanoTaskCartridge
       - NewsReaderCartridge
       - AstroNavCartridge
-      - SecWatchCartridge # Corvax-Next-SecWatch
       - NanoChatCartridge # Corvax-Next-PDAChat
 
 - type: entity
@@ -974,7 +971,6 @@
       - WantedListCartridge
       - MedTekCartridge
       - AstroNavCartridge
-      - SecWatchCartridge # Corvax-Next-SecWatch
       - NanoChatCartridge # Corvax-Next-PDAChat
 
 - type: entity

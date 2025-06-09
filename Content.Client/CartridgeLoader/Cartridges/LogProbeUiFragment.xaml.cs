@@ -1,4 +1,4 @@
-﻿using System.Linq;
+﻿﻿using System.Linq;
 using Content.Client._CorvaxNext.CartridgeLoader.Cartridges;
 using Content.Shared.CartridgeLoader.Cartridges;
 using Content.Shared._CorvaxNext.CartridgeLoader.Cartridges;
@@ -11,23 +11,15 @@ namespace Content.Client.CartridgeLoader.Cartridges;
 [GenerateTypedNameReferences]
 public sealed partial class LogProbeUiFragment : BoxContainer
 {
-    /// <summary>
-    /// Action invoked when the print button gets pressed.
-    /// </summary>
-    public Action? OnPrintPressed;
-
     public LogProbeUiFragment()
     {
         RobustXamlLoader.Load(this);
-
-        PrintButton.OnPressed += _ => OnPrintPressed?.Invoke();
     }
 
     // Corvax-Next-PDAChat-Start - Update to handle both types of data
     public void UpdateState(LogProbeUiState state)
     {
-        EntityName.Text = name;
-        PrintButton.Disabled = string.IsNullOrEmpty(name);
+        ProbedDeviceContainer.RemoveAllChildren();
 
         if (state.NanoChatData != null)
         {
