@@ -6,6 +6,7 @@ meta:
   forkVersion: ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   time: 05/28/2025 08:16:27
   entityCount: 1096
 =======
@@ -16,6 +17,10 @@ meta:
   time: 05/28/2025 07:15:53
   entityCount: 1093
 >>>>>>> parent of d4d8b80348 (Fix ATS (#37896))
+=======
+  time: 05/18/2025 04:47:32
+  entityCount: 935
+>>>>>>> parent of 440a348a02 (ATS update (#37891))
 maps: []
 grids:
 - 2
@@ -2689,6 +2694,7 @@ entities:
       parent: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - proto: ClothingNeckCloakCe
   entities:
   - uid: 1096
@@ -2707,6 +2713,8 @@ entities:
 >>>>>>> parent of d4d8b80348 (Fix ATS (#37896))
 - proto: ComfyChair
 =======
+=======
+>>>>>>> parent of 440a348a02 (ATS update (#37891))
     - type: EntityStorage
       air:
         volume: 200
@@ -2739,6 +2747,9 @@ entities:
           occludes: True
           ent: null
 - proto: ClothingNeckCloakTrans
+<<<<<<< HEAD
+>>>>>>> parent of 440a348a02 (ATS update (#37891))
+=======
 >>>>>>> parent of 440a348a02 (ATS update (#37891))
   entities:
   - uid: 149
@@ -4640,6 +4651,7 @@ entities:
     components:
     - type: Transform
 <<<<<<< HEAD
+<<<<<<< HEAD
       pos: 0.5,-28.5
       parent: 2
   - uid: 588
@@ -4712,6 +4724,9 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -1.5,-11.5
+=======
+      pos: 7.5,-19.5
+>>>>>>> parent of 440a348a02 (ATS update (#37891))
 =======
       pos: 7.5,-19.5
 >>>>>>> parent of 440a348a02 (ATS update (#37891))
