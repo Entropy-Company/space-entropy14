@@ -5,12 +5,17 @@ meta:
   forkId: ""
   forkVersion: ""
 <<<<<<< HEAD
+<<<<<<< HEAD
   time: 05/28/2025 08:16:27
   entityCount: 1096
 =======
   time: 05/18/2025 04:47:32
   entityCount: 935
 >>>>>>> parent of 440a348a02 (ATS update (#37891))
+=======
+  time: 05/28/2025 07:15:53
+  entityCount: 1093
+>>>>>>> parent of d4d8b80348 (Fix ATS (#37896))
 maps: []
 grids:
 - 2
@@ -2683,6 +2688,7 @@ entities:
       pos: 9.5,-15.5
       parent: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 - proto: ClothingNeckCloakCe
   entities:
   - uid: 1096
@@ -2697,6 +2703,8 @@ entities:
     - type: Transform
       pos: 1.5464499,-25.441368
       parent: 2
+=======
+>>>>>>> parent of d4d8b80348 (Fix ATS (#37896))
 - proto: ComfyChair
 =======
     - type: EntityStorage
@@ -4056,13 +4064,6 @@ entities:
     - type: Transform
       pos: 1.5,-17.5
       parent: 2
-- proto: GravityGeneratorMini
-  entities:
-  - uid: 725
-    components:
-    - type: Transform
-      pos: 9.5,-21.5
-      parent: 2
 - proto: Grille
   entities:
   - uid: 14
@@ -4656,21 +4657,21 @@ entities:
   - uid: 763
     components:
     - type: Transform
-      pos: 3.4869597,-25.514135
+      pos: 3.4958615,-25.41646
       parent: 2
-- proto: PlushieSharkBlue
+- proto: PlushieSharkPink
   entities:
-  - uid: 1095
+  - uid: 725
     components:
     - type: Transform
-      pos: 1.6245749,-25.800743
+      pos: 1.5491161,-25.699451
       parent: 2
 - proto: PlushieSlime
   entities:
   - uid: 772
     components:
     - type: Transform
-      pos: 1.5933249,-25.519493
+      pos: 1.5003853,-25.306501
       parent: 2
 - proto: PosterContrabandUnreadableAnnouncement
   entities:
