@@ -22,6 +22,7 @@
     - Vulpkanin
     - Tajaran
     #Corvax-Species-End
+    - Felinid
 
 - type: loadoutEffectGroup
   id: EffectSpeciesVox
