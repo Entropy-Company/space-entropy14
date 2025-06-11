@@ -131,8 +131,6 @@
     - ServiceStatic
     - PowerCellsStatic
     - ElectronicsStatic
-    - CassetteTape
-    - TapeRecorder
   - type: EmagLatheRecipes
     emagStaticPacks:
     - SecurityAmmoStatic

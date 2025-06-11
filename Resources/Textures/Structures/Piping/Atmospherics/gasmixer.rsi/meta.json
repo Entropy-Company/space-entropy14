@@ -16,7 +16,7 @@
             "directions": 4
         },
         {
-            "name": "gasMixerOn",
+            "name": "GasMixer",
             "directions": 4,
             "delays": [
                 [

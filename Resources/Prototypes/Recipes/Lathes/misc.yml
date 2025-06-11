@@ -268,9 +268,9 @@
   materials:
     Steel: 30
 
+- type: latheRecipe
   id: CassetteTape
   result: CassetteTape
-  category: Tools
   completetime: 2
   materials:
     Steel: 50
@@ -279,7 +279,6 @@
 - type: latheRecipe
   id: TapeRecorder
   result: TapeRecorder
-  category: Tools
   completetime: 3
   materials:
     Steel: 250

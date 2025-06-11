@@ -150,7 +150,7 @@
       visuals:
         enum.FilterVisuals.Enabled:
           enabled:
-            True: { state: gasMixerOn }
+            True: { state: GasMixer }
             False: { state: gasMixer }
     - type: PipeColorVisuals
     - type: UserInterface
