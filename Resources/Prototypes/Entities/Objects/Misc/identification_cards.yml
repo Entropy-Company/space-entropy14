@@ -875,6 +875,10 @@
   - type: IdCard
     jobTitle: job-title-universal
     jobIcon: JobIconAdmin
+  - type: AgentIDCard
+  - type: ActivatableUI
+    key: enum.AgentIDCardUiKey.Key
+    inHandsOnly: true
   - type: Access
     groups:
     - AllAccess
@@ -886,3 +890,13 @@
     - Wizard
   - type: NanoChatCard # Corvax-Next-PDAChat
     notificationsMuted: true
+  - type: ChameleonClothing
+    slot: [idcard]
+    default: UniversalIDCard
+    requireTag: WhitelistChameleonIdCard
+  - type: UserInterface
+    interfaces:
+      enum.AgentIDCardUiKey.Key:
+        type: AgentIDCardBoundUserInterface
+      enum.ChameleonUiKey.Key:
+        type: ChameleonBoundUserInterface
